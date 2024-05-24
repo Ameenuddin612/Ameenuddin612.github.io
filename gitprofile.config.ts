@@ -9,17 +9,17 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/',
+  base: '/gitprofile/',
   projects: {
     github: {
-      display: false, // Display GitHub projects?
+      display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: true, // Forked projects will not be displayed if set to true.
+          forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -28,15 +28,38 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    
-      
+    external: {
+      header: 'My Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://example.com',
+        },
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://example.com',
+        },
+      ],
+    },
+  },
   seo: {
-    title: 'Portfolio of Ameenuddin',
-    description: 'Full Stack Developer| React.js| JavaScript',
+    title: 'Portfolio of Ariful Alam',
+    description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ameenuddin612',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
+    mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -46,67 +69,109 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: '',
-    dev: '',
+    medium: 'arifszn',
+    dev: 'arifszn',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://ameenuddin612.github.io',
+    website: 'https://www.arifszn.com',
     phone: '',
-    email: 'ameenuddin7009@gmail.com',
+    email: 'arifulalamszn@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    
+    'PHP',
+    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'HTML',
-    'CSS',
+    'Nest.js',
+    'MySQL',
     'PostgreSQL',
     'Git',
-    'Github',
+    'Docker',
+    'PHPUnit',
+    'CSS',
+    'Antd',
+    'Tailwind',
   ],
-  
-  certifications: [
+  experiences: [
     {
-      name: 'The Complete 2024 Web Development Bootcamp',
-      body: 'Udemy',
-      year: 'February 2024',
-      link: 'https://drive.google.com/file/d/1j7uLJQPCXdnTV40c_LrpE7___8-F0j-l/view?usp=sharing',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
+      to: 'Present',
+      companyLink: 'https://example.com',
     },
     {
-      name: 'Full Stack Web Development MERN Stack',
-      body: 'PrepInsta',
-      year: 'May 2024',
-      link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
+    },
+  ],
+  certifications: [
+    {
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Lords Institute of Engineering and Technology',
-      degree: 'Bachelor of Engineering',
-      from: '2019',
-      to: '2023',
-    },
-    {
-      institution: 'Noesis Junior College',
-      degree: 'Intermediate',
-      from: '2017',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2015',
       to: '2019',
     },
     {
-      institution: 'International Indian School Jeddah',
-      degree: 'Xth class',
-      from: '2015',
-      to: '2016',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
     },
   ],
-  
-  
+  publications: [
+    {
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+  ],
+  // Display articles from your medium or dev account. (Optional)
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'arifszn', // to hide blog section, keep it empty
+    limit: 2, // How many articles to display. Max is 10.
+  },
+  googleAnalytics: {
+    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  },
+  // Track visitor interaction and behavior. https://www.hotjar.com
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
+  themeConfig: {
+    defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
