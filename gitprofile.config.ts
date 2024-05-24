@@ -33,23 +33,27 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: '',
-          description:'',
-          imageUrl:'',
-          link: '',
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://example.com',
         },
         {
-          title: '',
-          description:'',
-          imageUrl:'',
-          link: '',
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://example.com',
         },
       ],
     },
   },
   seo: {
     title: 'Portfolio of Ameenuddin',
-    description: 'Full Stack Developer | React.js| Node.js| JavaScript',
+    description: 'Full Stack Developer',
     imageURL: '',
   },
   social: {
@@ -70,7 +74,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://ameenuddin612.github.io/',
+    website: 'https://ameenuddin612.github.io',
     phone: '',
     email: 'ameenuddin7009@gmail.com',
   },
@@ -79,66 +83,68 @@ const CONFIG = {
       'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'PHP',
+    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'HTML',
-    'CSS',
+    'Nest.js',
+    'MySQL',
     'PostgreSQL',
     'Git',
+    'Docker',
+    'PHPUnit',
+    'CSS',
+    'Antd',
+    'Tailwind',
   ],
   experiences: [
     {
-      company: '',
-      position: '',
-      from: '',
-      to: '',
-      companyLink: '',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
+      to: 'Present',
+      companyLink: 'https://example.com',
+    },
+    {
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
     },
   ],
   certifications: [
     {
-      name: 'The Complete 2023 Web Development Bootcamp',
-      body: 'Udemy',
-      year: 'February 2024',
-      link: 'https://drive.google.com/file/d/1j7uLJQPCXdnTV40c_LrpE7___8-F0j-l/view?usp=sharing',
-    },
-    {
-      name: 'Full Stack Web Development MERN Stack',
-      body: 'PrepInsta',
-      year: 'May 2024',
-      link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Lords Institute of Engineering and Technology',
-      degree: 'Bachelor of Engineering',
-      from: '2019',
-      to: '2023',
-    },
-    {
-      institution: 'Noesis Junior College',
-      degree: 'Intermediate',
-      from: '2017',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2015',
       to: '2019',
     },
     {
-      institution: 'International Indian School Jeddah',
-      degree: 'Xth',
-      from: '2015',
-      to: '2016',
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
     },
   ],
   publications: [
     {
-      title: '',
+      title: 'Publication Title',
       conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
       description:
-        ' minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
       title: 'Publication Title',
@@ -147,11 +153,25 @@ const CONFIG = {
       authors: 'John Doe, Jane Smith',
       link: 'https://example.com',
       description:
-        '',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
-  
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'arifszn', // to hide blog section, keep it empty
+    limit: 2, // How many articles to display. Max is 10.
+  },
+  googleAnalytics: {
+    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  },
+  // Track visitor interaction and behavior. https://www.hotjar.com
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
+  themeConfig: {
+    defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
