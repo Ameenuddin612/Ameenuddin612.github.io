@@ -85,7 +85,7 @@ const CONFIG = {
     'Node.js',
     'PostgreSQL',
     'Git',
-  ],
+  ]
   experiences: [
     {
       company: 'Rejolt Edtech Pvt Ltd.',
@@ -101,7 +101,7 @@ const CONFIG = {
       to: '',
       companyLink: '',
     },
-  ],
+  ]
   certifications: [
     {
       name: 'Lorem ipsum',
@@ -109,7 +109,7 @@ const CONFIG = {
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ],
+  ]
   educations: [
     {
       institution: 'Institution Name',
@@ -126,7 +126,7 @@ const CONFIG = {
   ],
   publications: [
     
-  ],
+  ]
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
