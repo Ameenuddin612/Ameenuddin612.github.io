@@ -78,6 +78,7 @@ const CONFIG = {
     'CSS',
     'React',
     'Node',
+    'Express',
     'Python',
     'Bootstrap',
     'jQuery',
@@ -97,7 +98,7 @@ const CONFIG = {
    certifications: [
      {
        name: 'Full Stack Web Development MERN Stack',
-       body: 'prepInsta',
+       body: 'PrepInsta',
        year: 'May 2024',
        link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
      },
