@@ -37,13 +37,13 @@ const CONFIG = {
           description:
             'Developed the front-end of a note-taking web application using React.',
           imageUrl:'https://drive.google.com/file/d/18_DmOOnEGqXLl6EJHoPzJmUPdgzmNRAL/view?usp=sharing',
-          link:'https://cs3hg3.csb.app',
+          link:'',
         },
         {
           title: 'PhonePe Website',
           description:'Created a visually stunning and responsive webpage for PhonePe - most loved UPI app of India.',
           imageUrl:'https://drive.google.com/file/d/18pZyW-0qKzkjeSGnNOfxrpFYUXWBMSVx/view?usp=sharing',
-          link:'http://127.0.0.1:3000/index.html',
+          link:'',
         },
       ],
     },
@@ -95,20 +95,13 @@ const CONFIG = {
     'Antd',
     'Tailwind',
   ],
-  experiences: [
+  internships: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Rejolt Edtech Pvt Ltd.',
+      position: 'Web Developer',
+      from: 'June 2022',
+      to: 'July 2022',
+      companyLink: 'https://www.rejoltedtech.com',
     },
   ],
   certifications: [
