@@ -36,13 +36,13 @@ const CONFIG = {
           title: 'Keeper App',
           description:
             'Developed the front-end of a note-taking web application using React.',
-          imageUrl:'https://drive.google.com/file/d/18_DmOOnEGqXLl6EJHoPzJmUPdgzmNRAL/view?usp=sharing',
+          imageUrl:'',
           link:'',
         },
         {
           title: 'PhonePe Website',
           description:'Created a visually stunning and responsive webpage for PhonePe - most loved UPI app of India.',
-          imageUrl:'https://drive.google.com/file/d/18pZyW-0qKzkjeSGnNOfxrpFYUXWBMSVx/view?usp=sharing',
+          imageUrl:'',
           link:'',
         },
       ],
@@ -80,20 +80,15 @@ const CONFIG = {
       'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    
+    
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'HTMl',
+    'CSS',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   internships: [
     {
@@ -106,10 +101,10 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'The Complete 2023 Web Development Bootcamp',
+      body: 'Udemy',
+      year: 'February 2024',
+      fileUrl: 'https://drive.google.com/file/d/1j7uLJQPCXdnTV40c_LrpE7___8-F0j-l/view?usp=sharing',
     },
   ],
   educations: [
