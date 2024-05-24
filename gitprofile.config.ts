@@ -84,8 +84,8 @@ const CONFIG = {
     'React.js',
     'Node.js',
     'PostgreSQL',
-    'Git',
-  ]
+    'Git'
+  ],
   experiences: [
     {
       company: 'Rejolt Edtech Pvt Ltd.',
@@ -93,15 +93,8 @@ const CONFIG = {
       from: 'June 2022',
       to: 'July 2022',
       companyLink: 'https://www.rejoltedtech.com',
-    },
-    {
-      company: '',
-      position: '',
-      from: '',
-      to: '',
-      companyLink: '',
-    },
-  ]
+    }
+  ],
   certifications: [
     {
       name: 'Lorem ipsum',
@@ -109,7 +102,7 @@ const CONFIG = {
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ]
+  ],
   educations: [
     {
       institution: 'Institution Name',
