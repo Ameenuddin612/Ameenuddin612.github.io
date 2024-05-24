@@ -41,7 +41,7 @@ const CONFIG = {
         },
         {
           title: 'PhonePe Website',
-          description:'Created a visually stunning and responsive webpage for PhonePe, India's most loved UPI app.',
+          description:'Created a visually stunning and responsive webpage for PhonePe - most loved UPI app of India.',
           imageUrl:'https://drive.google.com/file/d/18pZyW-0qKzkjeSGnNOfxrpFYUXWBMSVx/view?usp=sharing',
           link:'http://127.0.0.1:3000/index.html',
         },
