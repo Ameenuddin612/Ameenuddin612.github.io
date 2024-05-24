@@ -32,15 +32,11 @@ const CONFIG = {
           title: 'Keeper App',
           description:
             'Developed the front-end of a note-taking web application using React.',
-          imageUrl: 'https://photos.google.com/photo/AF1QipN1hBKLAEOCziJUF5iy-z0FhnavT9JtPCV5z0Qc',
-          link: 'https://github.com/mdmohsin/pi6_functions',
         },
         {
           title: 'PhonePe Website',
           description:
             'Created a visually stunning and responsive webpage for PhonePe, most loved UPI app.',
-          imageUrl: 'https://photos.google.com/search/_tra_/photo/AF1QipNbu7lG7Bpm-HqSBstkoR7AoaXf4x76l-0TqrpE',
-          link: 'https://github.com/mdmohsin/bloggie',
         },
       ],
     },
@@ -100,16 +96,16 @@ const CONFIG = {
   ],
    certifications: [
      {
-       name: 'The Complete 2023 Web Development Bootcamp',
+       name: 'The Complete 2024 Web Development Bootcamp',
        body: 'Udemy',
-       year: 'February 2022',
+       year: 'February 2024',
        link: 'https://drive.google.com/file/d/1j7uLJQPCXdnTV40c_LrpE7___8-F0j-l/view?usp=sharing',
      },
      {
-       name: 'The Complete 2023 Web Development Bootcamp',
-       body: 'Lorem ipsum dolor sit amet',
+       name: 'Full Stack Web Development MERN Stack',
+       body: 'prepInsta',
        year: 'March 2022',
-       link: 'https://example.com',
+       link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
      },
    ],
   educations: [
@@ -118,6 +114,18 @@ const CONFIG = {
       degree: 'Bachelor of Engineering - Information Technology',
       from: 'August 2019',
       to: 'July 2023',
+    },
+    {
+      institution: 'Noesis Junior College',
+      degree: 'Intermediate',
+      from: 'October 2017',
+      to: 'May 2019',
+    },
+    {
+      institution: 'International Indian School Jeddah',
+      degree: 'Xth',
+      from: 'April 2015',
+      to: 'May 2016',
     },
   ],
   publications: [
