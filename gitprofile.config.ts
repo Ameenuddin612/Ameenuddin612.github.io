@@ -29,24 +29,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Papersy',
-          description:
-            'A platform that simplifies the process of sharing notes and question papers among OU affiliated colleges.',
-          imageUrl: 'https://play-lh.googleusercontent.com/xpChoLNgOIJr-1lsxQSztFjNzGEttUrHVCtqyH50CHmlq9bUdm0b0DZ0tMCG2CKZdJc=w480-h960-rw',
-          link: 'https://play.google.com/store/apps/details?id=com.thedumbcoders.papersy',
-        },
-        {
           title: 'Keeper App',
           description:
-            'Serverless functions written in GO for the Pi6 Wallet application',
-          imageUrl: 'https://via.placeholder.com/250x250',
+            'Developed the front-end of a note-taking web application using React.',
+          imageUrl: 'https://photos.google.com/photo/AF1QipN1hBKLAEOCziJUF5iy-z0FhnavT9JtPCV5z0Qc',
           link: 'https://github.com/mdmohsin/pi6_functions',
         },
         {
           title: 'PhonePe Website',
           description:
-            'A platform for users to write articles and generate revenue by sharing them',
-          imageUrl: 'https://raw.githubusercontent.com/mdmohsin7/bloggie/master/screenshots/Vector-Galaxy-s20-Mockup.png',
+            'Created a visually stunning and responsive webpage for PhonePe, most loved UPI app.',
+          imageUrl: 'https://photos.google.com/search/_tra_/photo/AF1QipNbu7lG7Bpm-HqSBstkoR7AoaXf4x76l-0TqrpE',
           link: 'https://github.com/mdmohsin/bloggie',
         },
       ],
@@ -83,27 +76,31 @@ const CONFIG = {
     fileUrl: 'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'C/C++',
-    'HTML/CSS',
+    'C',
+    'C++',
+    'HTML',
+    'CSS',
     'React',
     'Node',
     'Python',
+    'Bootstrap',
+    'jQuery',
     'JavaScript',
     'Git',
   ],
   experiences: [
     {
-      company: 'Cattle GURU (Cattleguru Pvt. Ltd.)',
-      position: 'Software Engineer - Full time',
-      from: 'May 2023',
-      to: 'Present',
-      companyLink: 'https://cattleguru.in',
+      company: 'Rejolt Edtech Pvt Ltd.',
+      position: 'Web Developer - Internship',
+      from: 'June 2022',
+      to: 'July 2022',
+      companyLink: 'https://www.rejoltedtech.com',
     },
     
   ],
    certifications: [
      {
-       name: 'Lorem ipsum',
+       name: 'The Complete 2023 Web Development Bootcamp',
        body: 'Lorem ipsum dolor sit amet',
        year: 'March 2022',
        link: 'https://example.com',
