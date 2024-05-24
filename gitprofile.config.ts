@@ -96,16 +96,16 @@ const CONFIG = {
   ],
    certifications: [
      {
+       name: 'Full Stack Web Development MERN Stack',
+       body: 'prepInsta',
+       year: 'May 2024',
+       link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
+     },
+     {
        name: 'The Complete 2024 Web Development Bootcamp',
        body: 'Udemy',
        year: 'February 2024',
        link: 'https://drive.google.com/file/d/1j7uLJQPCXdnTV40c_LrpE7___8-F0j-l/view?usp=sharing',
-     },
-     {
-       name: 'Full Stack Web Development MERN Stack',
-       body: 'prepInsta',
-       year: 'March 2022',
-       link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
      },
    ],
   educations: [
