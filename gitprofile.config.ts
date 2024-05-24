@@ -43,7 +43,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Ameenuddin',
-    description: 'Full Stack Developer',
+    description: 'Full Stack Developer ',
     imageURL: '',
   },
   social: {
