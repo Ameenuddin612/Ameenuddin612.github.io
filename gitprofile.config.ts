@@ -35,25 +35,15 @@ const CONFIG = {
         {
           title: 'Keeper App',
           description:
-            '- Developed the front-end of a note-taking web application using React.
-- Implemented React components to create a dynamic and responsive user interface.
-- Utilized React Hooks for state management and to handle component lifecycle events.
-- Styled the application with CSS.',
-          imageUrl:
-            'https://drive.google.com/file/d/18_DmOOnEGqXLl6EJHoPzJmUPdgzmNRAL/view?usp=sharing',
-          link: 'https://cs3hg3.csb.app/',
+            'Developed the front-end of a note-taking web application using React.',
+          imageUrl:'https://drive.google.com/file/d/18_DmOOnEGqXLl6EJHoPzJmUPdgzmNRAL/view?usp=sharing',
+          link:'https://cs3hg3.csb.app',
         },
         {
           title: 'PhonePe Website',
-          description:
-            '- Created a visually stunning and responsive webpage for PhonePe, India's most loved UPI app.
-- Utilized the power of HTML5 to structure the content of the webpage.
-- Crafted a captivating UI using CSS, applying custom styles and layouts to enhance user experience.
-- Leveraged the Bootstrap framework to streamline the development process, incorporating pre-designed 
-components and responsive grid system for seamless compatibility across devices.',
-          imageUrl:
-            'https://drive.google.com/file/d/18pZyW-0qKzkjeSGnNOfxrpFYUXWBMSVx/view?usp=sharing',
-          link: 'http://127.0.0.1:3000/index.html',
+          description:'Created a visually stunning and responsive webpage for PhonePe, India's most loved UPI app.',
+          imageUrl:'https://drive.google.com/file/d/18pZyW-0qKzkjeSGnNOfxrpFYUXWBMSVx/view?usp=sharing',
+          link:'http://127.0.0.1:3000/index.html',
         },
       ],
     },
