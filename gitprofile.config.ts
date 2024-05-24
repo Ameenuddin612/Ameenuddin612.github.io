@@ -98,7 +98,7 @@ const CONFIG = {
    certifications: [
      {
        name: 'Full Stack Web Development MERN Stack',
-       body: 'PrepInsta',
+       body: 'Insta',
        year: 'May 2024',
        link: 'https://drive.google.com/file/d/1haMgMfa8KpTOdMzvFD90a5kBqfxjxUJv/view?usp=sharing',
      },
