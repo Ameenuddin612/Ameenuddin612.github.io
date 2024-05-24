@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Ameenuddin612', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -52,14 +52,12 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
+    title: 'Portfolio of Ameenuddin',
+    description: 'Full Stack Developer',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'ameenuddin612',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -76,7 +74,7 @@ const CONFIG = {
     telegram: '',
     website: 'https://www.arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'ameenuddin7009@gmail.com',
   },
   resume: {
     fileUrl:
