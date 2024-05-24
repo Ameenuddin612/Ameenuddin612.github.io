@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'Ameenuddin612', // Your GitHub org/user name. (This is the only required config)
+    username: 'Ameenuddin612', // Your GitHub org/user name. (Required)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -23,25 +23,31 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
-      manual: {
-        // Properties for manually specifying projects
-        projects: '', // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Papersy',
+          description:
+            'A platform that simplifies the process of sharing notes and question papers among OU affiliated colleges.',
+          imageUrl: 'https://play-lh.googleusercontent.com/xpChoLNgOIJr-1lsxQSztFjNzGEttUrHVCtqyH50CHmlq9bUdm0b0DZ0tMCG2CKZdJc=w480-h960-rw',
+          link: 'https://play.google.com/store/apps/details?id=com.thedumbcoders.papersy',
+        },
+        {
           title: 'Keeper App',
           description:
-            'Developed the front-end of a note-taking web application using React.',
-          
+            'Serverless functions written in GO for the Pi6 Wallet application',
+          imageUrl: 'https://via.placeholder.com/250x250',
+          link: 'https://github.com/mdmohsin/pi6_functions',
         },
         {
           title: 'PhonePe Website',
           description:
-            'Created a visually stunning and responsive webpage for PhonePe - most loved UPI app.',
+            'A platform for users to write articles and generate revenue by sharing them',
+          imageUrl: 'https://raw.githubusercontent.com/mdmohsin7/bloggie/master/screenshots/Vector-Galaxy-s20-Mockup.png',
+          link: 'https://github.com/mdmohsin/bloggie',
         },
       ],
     },
@@ -66,7 +72,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
     website: 'https://ameenuddin612.github.io',
@@ -74,57 +80,68 @@ const CONFIG = {
     email: 'ameenuddin7009@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'HTML',
-    'CSS',
+    'C/C++',
+    'HTML/CSS',
+    'React',
+    'Node',
+    'Python',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'PostgreSQL',
-    'Git'
+    'Git',
   ],
   experiences: [
     {
-      company: 'Rejolt Edtech Pvt Ltd.',
-      position: 'Web Developer Intern',
-      from: 'June 2022',
-      to: 'July 2022',
-      companyLink: 'https://www.rejoltedtech.com',
-    }
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Cattle GURU (Cattleguru Pvt. Ltd.)',
+      position: 'Software Engineer - Full time',
+      from: 'May 2023',
+      to: 'Present',
+      companyLink: 'https://cattleguru.in',
     },
+    
   ],
+   certifications: [
+     {
+       name: 'Lorem ipsum',
+       body: 'Lorem ipsum dolor sit amet',
+       year: 'March 2022',
+       link: 'https://example.com',
+     },
+   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Nawab Shah Alam Khan College of Engg. and Tech.',
+      degree: 'Bachelor of Engineering - Information Technology',
+      from: 'August 2019',
+      to: 'June 2023',
     },
   ],
   publications: [
-    
-  ]
+    {
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+  ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    username: 'mdmohsin7', // to hide blog section, keep it empty
+    limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -135,7 +152,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
