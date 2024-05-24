@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: '', // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,17 +33,15 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Keeper App',
+          title: 'keeper App',
           description:
             'Developed the front-end of a note-taking web application using React.',
-          imageUrl:'',
-          link:'',
+          
         },
         {
           title: 'PhonePe Website',
-          description:'Created a visually stunning and responsive webpage for PhonePe - most loved UPI app of India.',
-          imageUrl:'',
-          link:'',
+          description:
+            'Created a visually stunning and responsive webpage for PhonePe - most loved UPI app.',
         },
       ],
     },
@@ -80,31 +78,43 @@ const CONFIG = {
       'https://drive.google.com/file/d/1nYQfqv6xs0cNxoDOTL8tA4p8iJrXiUmy/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    
-    
+    'PHP',
+    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'HTMl',
-    'CSS',
+    'Nest.js',
+    'MySQL',
     'PostgreSQL',
     'Git',
+    'Docker',
+    'PHPUnit',
+    'CSS',
+    'Antd',
+    'Tailwind',
   ],
-  internships: [
+  experiences: [
     {
-      company: 'Rejolt Edtech Pvt Ltd.',
-      position: 'Web Developer',
-      from: 'June 2022',
-      to: 'July 2022',
-      companyLink: 'https://www.rejoltedtech.com',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
+      to: 'Present',
+      companyLink: 'https://example.com',
+    },
+    {
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
     },
   ],
   certifications: [
     {
-      name: 'The Complete 2023 Web Development Bootcamp',
-      body: 'Udemy',
-      year: 'February 2024',
-      fileUrl: 'https://drive.google.com/file/d/1j7uLJQPCXdnTV40c_LrpE7___8-F0j-l/view?usp=sharing',
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
     },
   ],
   educations: [
@@ -229,4 +239,3 @@ const CONFIG = {
 };
 
 export default CONFIG;
-
