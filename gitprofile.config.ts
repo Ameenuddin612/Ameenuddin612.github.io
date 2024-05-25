@@ -120,7 +120,7 @@ const CONFIG = {
       institution: 'Noesis Junior College',
       degree: 'Intermediate',
       from: 'October 2017',
-      to: 'May 2019',
+      to: 'April 2019',
     },
     {
       institution: 'International Indian School Jeddah',
